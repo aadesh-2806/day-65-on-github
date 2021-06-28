@@ -5,7 +5,7 @@ void heapify(int *a,int root,int end)
 	int maxchild,left,right,t;
 	if (root<=(end-1)/2)
 	{
-		left=root*2+1;
+		left=root*2+1; 
 		right=root*2+2;
 		if (left==end)
 			maxchild=left;
